@@ -1,3 +1,20 @@
+* Primitive types
+
+- integers
+- floating point
+- strings
+- booleans
+
+** Strings
+
+ Lets return the length of the string and one string is repeated 2 times
+#+begin_src python
+return len("this is a string"*2+' hey!')
+#+end_src
+
+#+RESULTS:
+: 37
+
 * Variables
 
 #+begin_src python
@@ -10,12 +27,20 @@ return numero1+numero2
 #+RESULTS:
 : 11
 
-* Strings
+** Parsing
+Easy way to parse data
 
- Lets return the length of the string and one string is repeated 2 times
+=str(number)= , =int(string)= 
+
 #+begin_src python
-return len("this is a string"*2+' hey!')
+string1='23'
+number1=int(string1)
+return number1
 #+end_src
 
 #+RESULTS:
-: 37
+: 23
+
+* Logic and comparison operators 
+
+=and= , =or= , =not= , ====  , =!== , =>= , =<= ,  =>== , =<== ,
