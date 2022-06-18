@@ -1,0 +1,21 @@
+* Variables
+
+#+begin_src python
+numero1=5
+numero2=6
+
+return numero1+numero2
+#+end_src
+
+#+RESULTS:
+: 11
+
+* Strings
+
+ Lets return the length of the string and one string is repeated 2 times
+#+begin_src python
+return len("this is a string"*2+' hey!')
+#+end_src
+
+#+RESULTS:
+: 37
