@@ -34,7 +34,20 @@ name.replace('o','a')
 #+end_src
 
 * Slices
+all the parameters are optional on the slice
+#+begin_src python
+name = 'Sanderson'
 
+name[0:3]## San
+name[1:3]## an
+name[:3]## San
+name[3:]## derson
+## the third parameter are the steps
+name[1:7:2]## adr
+## you can have negative steps
+name[::-1] ## nosrednaS
+
+#+end_src
 
 * Variables
 
