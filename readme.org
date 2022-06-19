@@ -15,6 +15,27 @@ return len("this is a string"*2+' hey!')
 #+RESULTS:
 : 37
 
+***  Some string functions
+these functions doesn't modify the actual string so, you should save it in some variable
+
+#+begin_src python
+name = 'Sanderson'
+## to upper case
+name.upper()
+## capitalize
+name.capitalize()
+## trim/strip
+name.strip()
+## lowe case
+name.lower()
+## replace characters
+name.replace('o','a')
+
+#+end_src
+
+* Slices
+
+
 * Variables
 
 #+begin_src python
