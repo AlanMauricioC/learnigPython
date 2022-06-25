@@ -1,3 +1,11 @@
+* Notes
+try to have a run function
+
+#+begin_src python
+def run():
+  pass
+#+end_src
+
 * Primitive types
 
 - integers
