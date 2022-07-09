@@ -86,3 +86,33 @@ return number1
 * Logic and comparison operators 
 
 =and= , =or= , =not= , ====  , =!== , =>= , =<= ,  =>== , =<== ,
+
+* loops
+** Break and Continue
+to stop a loop
+#+begin_src python
+  for count in range(100):
+    if count%2 != 0:
+      continue ## will continue with the next value on the range
+      ## using break would stop the loop execution
+    print(count)
+#+end_src
+
+
+** While
+#+begin_src python
+  conditional=true
+  while conditional:
+    print('print c:')
+#+end_src
+
+** For
+take a loot at how range works, you can pass multple parameters [[https://docs.python.org/3/library/stdtypes.html?highlight=range#range][range docs]]
+#+begin_src python
+  for count in range(100):
+    print(count)
+## or
+
+  for char in name:
+    print(char.upper())
+#+end_src
