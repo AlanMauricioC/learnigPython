@@ -129,3 +129,6 @@ for number in my_tuple:
 
 * Diccionaries
 [[file:diccionaries.py][diccionaries example]]
+
+* Examples
+[[file:password_generator.py][password generator]]
