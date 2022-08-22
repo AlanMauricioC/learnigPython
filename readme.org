@@ -116,3 +116,16 @@ take a loot at how range works, you can pass multple parameters [[https://docs.p
   for char in name:
     print(char.upper())
 #+end_src
+
+* Tuple
+tuples are inmutable estructure but very optimized 
+#+begin_src python
+my_tuple=(1,2,3,4,5)
+
+## my_tuple.append(5) you can't edit tuples
+for number in my_tuple:
+    print(number)
+#+end_src
+
+* Diccionaries
+[[file:diccionaries.py][diccionaries example]]
